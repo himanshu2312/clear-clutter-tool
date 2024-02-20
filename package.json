@@ -1,0 +1,21 @@
+{
+  "name": "clearcluttertool",
+  "version": "1.0.0",
+  "description": "A tool to clear your files clutter. I will short you directory and organize them based on file type.",
+  "main": "clutter.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node clutter.js"
+  },
+  "keywords": [
+    "clutter-remover",
+    "file-organizer",
+    "directory-manager"
+  ],
+  "author": "Himanshu Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
