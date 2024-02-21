@@ -28,7 +28,7 @@ if (files.length != 0) {
             } else {
                   const name = fileName.slice(0, breaking_point);
                   const extension = fileName.slice(breaking_point + 1);
-                  if (fileName === "package.json" || fileName === "package-lock.json" || name === "index" || name === "") {
+                  if (fileName === "package.json" || fileName === "package-lock.json" || name === "index" || name === "" || name === "README") {
                         console.log(`file -> ${name} [.${extension}] <=> [skipped]`);
                         continue;
                   }
