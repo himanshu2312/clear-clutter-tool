@@ -5,8 +5,6 @@ import path from "path";
 import { error } from "console";
 
 const prompt = ps();
-
-// const directory_path = "C:\\Users\\himan\\WebProjects\\NodeProjects\\ClearClutterTool";
 console.log();
 let directory_path = prompt("Enter the path for the directory to be scanned: ");
 
