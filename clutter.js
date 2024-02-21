@@ -36,11 +36,17 @@ if (files.length != 0) {
                         const source = path.join(directory_path, fileName);
                         const destination = path.join(directory_path, `/${extension}/${fileName}`);
                         fs.rename(source, destination, error => {
+                              if(error){
+                                    console.log(error);
+                              }
                         })
                   } else {
                         const newDir = path.join(directory_path, extension);
                         try {
                               fs.mkdir(newDir, error => {
+                                    if(error){
+                                          console.log(error);
+                                    }
                               });
                               const source = path.join(directory_path, fileName);
                               const destination = path.join(directory_path, `/${extension}/${fileName}`);
