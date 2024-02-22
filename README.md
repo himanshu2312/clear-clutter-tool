@@ -53,4 +53,4 @@ Now a Prompt will appear asking for the directory path. Provide the path to the 
 Be careful if you are using version 1.0.0. Please don't try this with your User or System directories. As this Tool alters the file locations and this version does not support any functionality to reverse or undo the operation, you won't be able to get files back to the previous location. you can use version 2.0.0 because that supports an undo functionality.
 For the best experience try this tool on your device's download directory or the directory with lots of files with different extensions.
 
-###### Made by [@Himanshu](https://www.linkedin.com/in/himanshu2312/)
+## Made by [@Himanshu](https://www.linkedin.com/in/himanshu2312/)
