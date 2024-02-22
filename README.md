@@ -27,7 +27,7 @@ npm i
 or you may do the same using the VsCode terminal
 
 ## Run the tool
-Now simply run 
+Now run 
 ```````
 node clutter
 ```````
@@ -38,7 +38,7 @@ node clutter.js
 Now a Prompt will appear asking for the directory path. Provide the path to the directory for the clutter cleaning and directory management and the tool will dynamically detect the files and arrange them for you.
 
 # Warning & Suggestions 
-Do not try this with your User or System directories. As this Tool alters the file locations and does not support any functionality to reverse or undo the operation, you won't be able to get files back to the previous location.
-For the best experience try this tool on your device's download directory or the directory which has lots of files with different extensions.
+Be careful if you are using version 1.0.0. Please don't try this with your User or System directories. As this Tool alters the file locations and this version does not support any functionality to reverse or undo the operation, you won't be able to get files back to the previous location. you can use version 2.0.0 because that supports an undo functionality.
+For the best experience try this tool on your device's download directory or the directory with lots of files with different extensions.
 
 ###### Made by [@Himanshu](https://www.linkedin.com/in/himanshu2312/)
