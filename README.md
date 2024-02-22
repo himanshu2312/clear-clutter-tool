@@ -1,10 +1,10 @@
-# Clear Clutter Tool:
+# Clear Clutter Tool
 This is a command line application that can clear clutters present in a directory. It is like a Directory Management Tool that simply takes the directory path and arranges the files present in that directory based on their extension in a separate directory.
 
-# Pre-requirements:
+# Pre-requirements
 Node should be installed on your system to use this tool. [Install Node](https://nodejs.org/en/download)
 
-# Tools and Technologies Used:
+# Tools and Technologies Used
 - Node
 - Visual Studio Code
 - Node Package Manager (NPM)
